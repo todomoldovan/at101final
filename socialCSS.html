@@ -1,0 +1,167 @@
+<!-- 
+Theodora Moldovan
+PA02
+COM 214 
+3/11/21
+This is the 'Social Media' page (custom CSS version).
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Social Media</title>
+		<link rel="shortcut icon" type="image/png" href="images/profile_image.jpg"/>
+		<link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.min.css" >
+		<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/solid.css" >
+		<link rel="stylesheet" href="styles.css" >
+
+		<style>
+		.alertCSS {
+			position: relative;
+			padding: 0.75rem 1.25rem;
+			margin-bottom: 1rem;
+  			border: 1px solid transparent;
+  			border-radius: 0.25rem;
+  			background-color: #1DA1F2;
+  			border-color: #D6D8DB;
+  			color: black;
+		}
+		
+		.alert-linkCSS {
+			color: #202326;
+			font-weight: 700;
+		}
+		.alert-linkCSS:hover {
+  			color: #202326;
+		}
+		.buttonCSS {
+			display: inline-block;
+			font-weight: 400;
+			background-image: linear-gradient(#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+  			border: 1px solid #6c757d;
+  			color: #fff;
+  			padding: 5px 10px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			vertical-align: middle;
+  			padding: 0.375rem 0.75rem;
+  			font-size: 1rem;
+  			line-height: 1.5;
+  			border-radius: 0.25rem;
+		}
+		.buttonCSS:hover {
+  			color: #fff;
+  			border-color: #545b62;
+  			text-decoration: none;
+		}
+		.containerCSS {
+			width: 100%;
+    		margin-left: auto;
+    		margin-right: auto;
+    		padding-left: 15px;
+    		padding-right: 15px;
+    		width: 100%;
+		}
+		@media (min-width: 576px) {
+  			.containerCSS {
+    			max-width: 540px;
+  			}
+		}
+		@media (min-width: 768px) {
+  			.containerCSS {
+    			max-width: 720px;
+  			}
+		}
+		@media (min-width: 992px) {
+			.containerCSS {
+        		max-width: 960px;
+     		}
+		}
+		@media (min-width: 1200px) {
+  			.containerCSS {
+    			max-width: 1140px;
+  			}
+		}
+		.rowCSS {
+  			display: flex;
+  			flex-wrap: wrap;
+  			margin-right: -15px;
+  			margin-left: -15px;
+		}
+		.col-sm-css {
+  			position: relative;
+  			width: 100%;
+  			padding-right: 15px;
+  			padding-left: 15px;
+		}
+		@media (min-width: 576px) {
+    		.col-sm-css {
+        		grid-column: span 3;
+    			flex-basis: 0;
+    			flex-grow: 1;
+    			max-width: 100%;
+    		}
+		}
+		</style>
+	</head>
+
+	<body>
+
+		<header>
+			<nav class="navbar navbar-light" style="background-color: #ebf2f5;">
+			  <a class="navbar-brand" href="index.html">
+			    <img src="images/profile_image.jpg" width="30" height="30" class="d-inline-block align-top" alt="Theodora Moldovan">
+			    Theodora Moldovan
+			  </a>
+
+			  <ul class="nav nav-pills">
+				  <li class="nav-item">
+				    <a class="nav-link" id="button1" href="index.html"><i class="fas fa-home"></i> Home </a>
+				  </li>
+				  <li class="nav-item">
+				  	<a class="nav-link" href="about.html"><i class="fas fa-file-alt"></i> About Me </a>
+				  </li>
+				  <li class="nav-item">
+				  	<a class="nav-link" href="gallery.html"><i class="fas fa-camera"></i> Gallery </a>
+				  </li>
+				  <li class="nav-item">
+				  	<a class="nav-link active" href="social.html"><i class="fas fa-users"></i> Social Media </a>
+				  </li>
+				  <li class="nav-item">
+				  	<a class="nav-link" href="contact.html"><i class="fas fa-address-card"></i> Contact </a>
+				  </li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="alertCSS">  Follow me on <i class="fab fa-twitter"></i> <a href="https://twitter.com/theamoldovan" class="alert-linkCSS">Twitter</a>!</div>
+
+		<div class="containerCSS">
+  			<div class="rowCSS">
+    			<div class="col-sm-css">
+      				<iframe src="https://open.spotify.com/embed/playlist/140QpqJswa3FGEsaKJuHsq" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    			</div>
+    			
+    			<div class="col-sm-css">
+     				<a class="twitter-timeline" data-lang="en" data-width="300" data-height="380" data-theme="dark" href="https://twitter.com/theamoldovan?ref_src=twsrc%5Etfw">Tweets by theamoldovan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    			</div>
+
+    			<div class="col-sm-css">
+    				<a href="https://www.instagram.com/thea_moldovan/" class="buttonCSS">Go to <i class="fab fa-instagram"></i> Instagram</a>
+   				</div>
+  			</div>
+		</div>
+
+
+		<footer class="footer text-center">
+	      <div class="container">
+	        <span class="text-muted">COM 214</span> <i class="far fa-copyright"></i>
+	      </div>
+	    </footer>
+
+		<script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+		<script src="fontawesome-free-5.5.0-web/js/all.min.js"></script>
+
+	</body>
+</html>
