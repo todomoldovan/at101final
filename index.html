@@ -1,14 +1,16 @@
-<!-- 
-Theodora Moldovan
-PA02
-COM 214 
-3/11/21
-This is the index of the website.
--->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title> Theodora Moldovan </title>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Star Wars Reimagined </title>
+        <script src="sketch.js"></script>
+    	<script src="./p5.js"></script>
+    	<script src="./jquery-3.6.0.js"></script>
+    	<script src="./script.js"></script>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+    	<meta charset="utf-8">
 		<link rel="shortcut icon" type="image/png" href="images/profile_image.jpg"/>
 		<link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" >
 		<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.min.css" >
@@ -17,12 +19,11 @@ This is the index of the website.
 	</head>
 
 	<body>
-
 		<header>
 			<nav class="navbar navbar-light" style="background-color: #ebf2f5;">
 			  <a class="navbar-brand" href="index.html">
-			    <img src="images/profile_image.jpg" width="30" height="30" class="d-inline-block align-top" alt="Theodora Moldovan">
-			    Theodora Moldovan
+			    <img src="images/profile_image.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
+			    Star Wars Reimagined
 			  </a>
 
 			  <ul class="nav nav-pills">
@@ -30,16 +31,13 @@ This is the index of the website.
 				    <a class="nav-link active" id="button1" href="index.html"><i class="fas fa-home"></i> Home </a>
 				  </li>
 				  <li class="nav-item">
-				  	<a class="nav-link" href="about.html"><i class="fas fa-file-alt"></i> About Me </a>
+				  	<a class="nav-link" href="tldr.html"><i class="fas fa-forward"></i> TL;DR </a>
 				  </li>
 				  <li class="nav-item">
-				  	<a class="nav-link" href="gallery.html"><i class="fas fa-camera"></i> Gallery </a>
+				  	<a class="nav-link" href="simplify.html"><i class="fas fa-brain"></i> Simplify </a>
 				  </li>
 				  <li class="nav-item">
-				  	<a class="nav-link" href="social.html"><i class="fas fa-users"></i> Social Media </a>
-				  </li>
-				  <li class="nav-item">
-				  	<a class="nav-link" href="contact.html"><i class="fas fa-address-card"></i> Contact </a>
+				  	<a class="nav-link" href="faq.html"><i class="fas fa-question"></i> FAQ </a>
 				  </li>
 				</ul>
 			</nav>
@@ -49,41 +47,31 @@ This is the index of the website.
   			<div class="row">
     			<div class="col-sm">
       				<div class="card" style="width: 15rem;">
-  						<img src="images/i1.png" class="card-img-top" alt="1">
+  						<img src="images/4.jpg" class="card-img-top" alt="1">
   						<div class="card-body">
-    						<h5 class="card-title">About Me</h5>
-    						<p class="card-text">Learn about my education and work experience.</p>
-    						<a href="about.html" class="btn btn-primary">Go</a>
+    						<h5 class="card-title">EPISODE IV</h5>
+    						<p class="card-text">A New Hope</p>
+    						<a href="episode4.html" class="btn btn-primary">Reimagine it!</a>
   						</div>
 					</div>
     			</div>
     			<div class="col-sm">
       				<div class="card" style="width: 15rem;">
-  						<img src="images/i2.png" class="card-img-top" alt="1">
+  						<img src="images/5.jpg" class="card-img-top" alt="1">
   						<div class="card-body">
-    						<h5 class="card-title">Gallery</h5>
-    						<p class="card-text">View a selection of photos of my friends and I.</p>
-    						<a href="gallery.html" class="btn btn-primary">Go</a>
+    						<h5 class="card-title">EPISODE V</h5>
+    						<p class="card-text">The Empire Strikes Back</p>
+    						<a href="episode5.html" class="btn btn-primary">Reimagine it!</a>
   						</div>
 					</div>
     			</div>
     			<div class="col-sm">
       				<div class="card" style="width: 15rem;">
-  						<img src="images/i3.png" class="card-img-top" alt="1">
+  						<img src="images/6.jpg" class="card-img-top" alt="1">
   						<div class="card-body">
-    						<h5 class="card-title">Social Media</h5>
-    						<p class="card-text">Learn how to follow me on different platforms.</p>
-    						<a href="social.html" class="btn btn-primary">Go</a>
-  						</div>
-					</div>
-    			</div>
-    			<div class="col-sm">
-      				<div class="card" style="width: 15rem;">
-  						<img src="images/i4.png" class="card-img-top" alt="1">
-  						<div class="card-body">
-    						<h5 class="card-title">Contact</h5>
-    						<p class="card-text">Get in touch by viewing my contact information.</p>
-    						<a href="contact.html" class="btn btn-primary">Go</a>
+    						<h5 class="card-title">EPISODE VI</h5>
+    						<p class="card-text">Revenge of the Sith</p>
+    						<a href="episode6.html" class="btn btn-primary">Reimagine it!</a>
   						</div>
 					</div>
     			</div>
@@ -93,12 +81,17 @@ This is the index of the website.
 
 		<footer class="footer text-center">
 	      <div class="container">
-	        <span class="text-muted">COM 214</span> <i class="far fa-copyright"></i>
+	        <span class="text-muted">Theodora Moldovan</span> <i class="far fa-copyright"></i>
 	      </div>
 	    </footer>
 
 		<script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
 		<script src="fontawesome-free-5.5.0-web/js/all.min.js"></script>
 
+		
+    <div id="canvasContainer">
+    <canvas> <script src="./sketch.js"></script></canvas>
+    </div>
+		
 	</body>
 </html>
