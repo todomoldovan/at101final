@@ -1,28 +1,26 @@
-<!-- 
-Theodora Moldovan
-PA02
-COM 214 
-3/11/21
-This is the 'About Me' page.
--->
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title> About </title>
-		<link rel="shortcut icon" type="image/png" href="images/profile_image.jpg"/>
-		<link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" >
-		<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.min.css" >
-		<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/solid.css" >
-		<link rel="stylesheet" href="styles.css" >
-	</head>
+<!DOCTYPE html><html><head>
+	<title> Star Wars Reimagined: Episode IV </title>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/profile_image.jpg"/>
+	<link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.min.css" >
+	<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/solid.css" >
+	<link rel="stylesheet" href="crawl.css" >
+	<link rel="stylesheet" href="styles.css" >
+	<script src="./jquery-3.6.0.js"></script>
+    <script src="./script.js"></script>
+  </head>
 
 	<body>
-
+		<script src="sketch.js"></script>
 		<header>
 			<nav class="navbar navbar-light" style="background-color: #ebf2f5;">
 			  <a class="navbar-brand" href="index.html">
-			    <img src="images/profile_image.jpg" width="30" height="30" class="d-inline-block align-top" alt="Theodora Moldovan">
-			    Theodora Moldovan
+			    <img src="images/profile_image.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
+			    Star Wars Reimagined
 			  </a>
 
 			  <ul class="nav nav-pills">
@@ -30,40 +28,42 @@ This is the 'About Me' page.
 				    <a class="nav-link" id="button1" href="index.html"><i class="fas fa-home"></i> Home </a>
 				  </li>
 				  <li class="nav-item">
-				  	<a class="nav-link active" href="about.html"><i class="fas fa-file-alt"></i> About Me </a>
+				  	<a class="nav-link" href="episode4tldr.html"><i class="fas fa-forward"></i> TL;DR </a>
 				  </li>
 				  <li class="nav-item">
-				  	<a class="nav-link" href="gallery.html"><i class="fas fa-camera"></i> Gallery </a>
+				  	<a class="nav-link" href="episode4simplify.html"><i class="fas fa-brain"></i> Simplify </a>
 				  </li>
 				  <li class="nav-item">
-				  	<a class="nav-link" href="social.html"><i class="fas fa-users"></i> Social Media </a>
-				  </li>
-				  <li class="nav-item">
-				  	<a class="nav-link" href="contact.html"><i class="fas fa-address-card"></i> Contact </a>
+				  	<a class="nav-link" href="episode4re.html"><i class="fas fa-question"></i> Reimagine </a>
 				  </li>
 				</ul>
 			</nav>
 		</header>
 
-		<div class="container">
+		<div class="fade"></div>
 
-			<div class="jumbotron">
-				<h1 class="display-4">Theodora Moldovan</h1>
-				<p id = "paragraph1" class="lead">Theodora Moldovan is a sophomore at Connecticut College, where she is pursuing a major in Data Science, a minor in Government, and a certificate in the Ammerman Center for Arts and Technology.<i class="fas fa-trademark"></i></p>
-				<hr class="my-4">
-				<p>Currently, Theodora serves as a teaching assistant and grader for the Computer Science Department and as a grader for the Mathematics and Statistics Department at Connecticut College. On campus, she's been involed with Women in STEM, the Student Survey Advisory Panel, Hillel and the International Student Association, as well as serving as an international student adviser for incoming first-year students. Theodora has experience in research through her participation in Polymath REU, where she worked on the "Hat Guessing Number of Graphs" project. She is looking forward to diving into the field of machine learning in the future.</p>
-				<a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/theodora-moldovan/" role="button"><i class="fab fa-linkedin-in"></i> LinkedIn Page</a>
-			</div>
+<section class="star-wars">
 
-		</div>
+  <div class="crawl">
+
+    <div class="title">
+      <p>Episode IV</p>
+      <h1>A New Hope</h1>
+    </div>
+    
+    <p>It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. </p>
+	<p>During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, an armoured space station with enough power to destroy an entire planet.</p> 
+	<p>Pursued by the Empire's sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy...</p>
+	<img src="images/4land.jpeg">
+
+  </div>
+
+</section>
 
 
 
-		<footer class="footer text-center">
-	      <div class="container">
-	        <span class="text-muted">COM 214</span> <i class="far fa-copyright"></i>
-	      </div>
-	    </footer>
+
+		
 
 		<script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
 		<script src="fontawesome-free-5.5.0-web/js/all.min.js"></script>
