@@ -1,18 +1,25 @@
-<!DOCTYPE html><html><head>
-	<title> Star Wars Reimagined </title>
-    <script src="p5.min.js"></script>
-    <script src="p5.dom.min.js"></script>
-    <script src="p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" type="image/png" href="images/profile_image.jpg"/>
-	<link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.min.css" >
-	<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/solid.css" >
-	<link rel="stylesheet" href="styles.css" >
-  </head>
-  <body>
-    <script src="sketch.js"></script>
-    <header>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Star Wars Reimagined </title>
+        <script src="sketch.js"></script>
+    	<script src="./p5.js"></script>
+    	<script src="./jquery-3.6.0.js"></script>
+    	<script src="./script.js"></script>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+    	<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/png" href="images/profile_image.jpg"/>
+		<link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.min.css" >
+		<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/solid.css" >
+		<link rel="stylesheet" href="styles.css" >
+	</head>
+
+	<body>
+		<header>
 			<nav class="navbar navbar-light" style="background-color: #ebf2f5;">
 			  <a class="navbar-brand" href="index.html">
 			    <img src="images/profile_image.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
@@ -36,7 +43,7 @@
 			</nav>
 		</header>
 
-	<div class="container">
+		<div class="container">
   			<div class="row">
     			<div class="col-sm">
       				<div class="card" style="width: 15rem;">
@@ -71,7 +78,8 @@
   			</div>
 		</div>
 
-	<footer class="footer text-center">
+
+		<footer class="footer text-center">
 	      <div class="container">
 	        <span class="text-muted">Theodora Moldovan</span> <i class="far fa-copyright"></i>
 	      </div>
@@ -79,6 +87,11 @@
 
 		<script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
 		<script src="fontawesome-free-5.5.0-web/js/all.min.js"></script>
-  
 
-</body></html>
+		
+    <div id="canvasContainer">
+    <canvas> <script src="./sketch.js"></script></canvas>
+    </div>
+		
+	</body>
+</html>
