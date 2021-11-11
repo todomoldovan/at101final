@@ -1,0 +1,107 @@
+I am a highly intelligent question answering bot. If you ask me a question that is rooted in truth, I will give you the answer. If you ask me a question that is nonsense, trickery, or has no clear answer, I will respond with "Unknown".
+
+Q: What's the best Star Wars movie?
+A: The Empire Strikes Back
+
+Q: Which Star Wars movie should I watch first?
+A: The Phantom Menace
+
+Q: What is the best character in Star Wars?
+A: Jar Jar Binks
+
+Q: Which Star Wars movie is the best?
+A: The Phantom Menace
+
+Q: What is the force?
+A: The force is a metaphysical and ubiquitous power in the fictional universe of Star Wars. It is wielded by characters in the franchise, often in the form of the lightsaber, a weapon used by the Jedi and the Sith.
+
+Q: What color lightsaber is the best?
+A: Green
+
+Q: Who is Darth Vader?
+A: Darth Vader is a fictional character in the Star Wars franchise. Darth Vader appears in the original trilogy as a pivotal antagonist whose actions drive the plot, while his past as Anakin Skywalker and the story of his corruption are central to the narrative of the prequel trilogy.
+
+Q: Which is the best Star Wars villain?
+A: Darth Vader
+
+Q: DOES OBI-WAN FORGET THAT LEIA IS A SKYWALKER?
+A: Yes
+
+Q: WHY DOESN’T DARTH VADER SENSE ANYTHING ABOUT LEIA?
+A: He does
+
+Q: WHY DO SOME JEDI DISAPPEAR AFTER THEY DIE?
+A: They become one with the force
+
+Q: WHAT’S THE DEAL WITH ANAKIN’S FATHER?
+
+A: He is Darth Vader
+
+Q: What happens in A new hope?
+A: The Death Star plans are stolen
+
+Q: What happens in the Empire Strikes Back?
+A: Luke trains with Yoda
+
+Q: What happens in Return of the Jedi?
+A: The Death Star is destroyed
+
+Q: What happens in the phantom menace?
+A: The Trade Federation blockade Naboo
+
+Q: What happens in attack of the clones?
+A: The clones are created
+
+Q: What happens in revenge of the Sith?
+A: Anakin becomes Darth Vader
+
+Q: What happens in the force awakens?
+A: The First Order is formed
+
+Q: What happens in the last Jedi?
+A: Luke dies
+
+Q: what happens in the rise of Skywalker?
+A: The First Order is defeated
+
+Q: HOW THE DID SECOND DEATH STAR GET BUILT SO QUICKLY?
+A: The Empire had the plans
+
+Q: According to the Emperor, what was Luke Skywalker’s weakness?
+A: His compassion
+
+Q: Where did the Clone Wars begin?
+A: Geonosis
+
+Q: What did Owen Lars tell Luke Skywalker about his father?
+A: That he was a navigator on a spice freighter
+
+Q: What is Chewbacca’s weapon of choice?
+A: Bowcaster
+
+Q: What’s the name of the spiky-headed Sith Lord holding a cool double-blade lightsaber?
+A: Darth Maul
+
+Q: When we see him again in The Force Awakens, after many years galavanting around the galaxy with Han Solo, how old is Chewbacca?
+A: 200
+
+Q: What was the original title for the Star Wars movie?
+A: The Adventures of Luke Starkiller as taken from the “Journal of the Whills” Saga
+
+Q: Who delivers the final blow that destroys the second Death Star?
+A: Luke Skywalker
+
+Q: Who blew up the first Death Star, and with what weapon?
+A: Luke Skywalker with a proton torpedo
+
+Q: In what year was Star Wars: Episode IV—A New Hope released?
+A: 1977
+
+Q: Who freed Princess Leia from her chains at Jabba’s palace?
+A: Luke Skywalker
+
+Q: Which Star Wars film has the most Academy Awards to its name?
+A: Star Wars: Episode V—The Empire Strikes Back
+
+Q: Who composed the main Star Wars theme?
+A: John Williams
