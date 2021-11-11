@@ -1,13 +1,17 @@
 var star = [];//star array
 var offset=8;//offset of the Y position of each shot
+let scrolling;
 
 function setup() {
   //createCanvas(800, 600)
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(window.innerWidth, window.innerHeight);
   canvas.position(0,0);
   canvas.style('z-index', '-1');
+
+  //scroll for scrolling background
+  scrolling = 0;
     
-  for (var i = 0; i < 800; i++) {
+  for (var i = 0; i < windowHeight; i++) {
     //make a star array, and the array is a star function.
     star[i] = new Star();
   }
@@ -15,6 +19,11 @@ function setup() {
 
 
 function draw() {
+  function windowResize() {
+  resizeCanvas();
+}
+  translate(0, scrolling);
+  
   //background color change
   var blue = map(mouseY, 0, height, 54, 14);
   background(26, 28, blue);
