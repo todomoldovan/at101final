@@ -1,3 +1,5 @@
+
+
 body {
   width: 100%;
   height: 100%;
@@ -46,6 +48,7 @@ body {
   text-transform: uppercase;
 }
 
+//reference for transform numbers: https://css-tricks.com/snippets/css/star-wars-crawl-text/
 @keyframes crawl {
   0% {
     top: 0;
